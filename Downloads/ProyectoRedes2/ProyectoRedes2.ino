@@ -7,9 +7,9 @@
 #include <ArduinoJson.h>     // Permite parsear mensajes en formato JSON
 
 // ── CONFIGURACION WIFI Y MQTT ─────────────────────────────────
-const char* WIFI_SSID   = "Mariana";       // Nombre de la red WiFi a la que se conecta
-const char* WIFI_PASS   = "Mariana2210*";  // Contrasena de la red WiFi
-const char* MQTT_BROKER = "172.20.10.2";   // IP del PC donde corre el broker Mosquitto
+const char* WIFI_SSID   = "";       // Nombre de la red WiFi a la que se conecta
+const char* WIFI_PASS   = "";  // Contrasena de la red WiFi
+const char* MQTT_BROKER = "";   // IP del PC donde corre el broker Mosquitto
 
 // ── DEFINICION DE PINES ───────────────────────────────────────
 #define LED_ROJO  D6  // LED rojo: se enciende cuando el precio baja
