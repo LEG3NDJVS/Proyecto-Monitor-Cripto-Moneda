@@ -3,9 +3,9 @@ import paho.mqtt.client as mqtt
 import requests
 
 # ── CONFIGURACION ─────────────────────────────────────────────
-TELEGRAM_TOKEN   = "8859788043:AAF5CEOwLUE9KLCgTS60UIZB3391p_ebCeM"
-TELEGRAM_CHAT_ID = "@MonitorCriptoJaveriana"  # Canal publico de Telegram
-MQTT_BROKER      = "172.20.10.2"              # IP del PC donde corre Mosquitto
+TELEGRAM_TOKEN   = ""
+TELEGRAM_CHAT_ID = ""  # Canal publico de Telegram
+MQTT_BROKER      = ""              # IP del PC donde corre Mosquitto
 MQTT_PORT        = 1883                        # Puerto estandar de MQTT
 
 # Umbrales de precio que disparan la alarma de Telegram
